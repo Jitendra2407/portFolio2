@@ -51,12 +51,12 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
     res.status(200).json(data);
-  } catch (err: any) {
-    console.error('Error fetching LeetCode data:', err);
-    res.status(500).json({
-      error: err.message || 'Failed to fetch LeetCode heatmap data',
-      details: 'Unable to retrieve user calendar data'
-    });
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      res.status(500).json({ error: err.message });
+    } else {
+      res.status(500).json({ error: 'Unknown error' });
+    }
   }
 };
 

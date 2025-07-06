@@ -42,8 +42,12 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     const data = await response.json();
     res.status(200).json(data.data);
-  } catch (err: any) {
-    res.status(500).json({ error: err.message || 'Unknown error' });
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      res.status(500).json({ error: err.message });
+    } else {
+      res.status(500).json({ error: 'Unknown error' });
+    }
   }
 };
 
