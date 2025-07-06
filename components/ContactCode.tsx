@@ -2,39 +2,29 @@ import styles from '@/styles/ContactCode.module.css';
 
 const contactItems = [
   {
-    social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    social: "website",
+    link: "jitendrathakur.com",
+    href: "https://jitendrathakur.com",
   },
   {
-    social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    social: "email",
+    link: "jitendrathakur2478@gmail.com",
+    href: "mailto:jitendrathakur2478@gmail.com",
   },
   {
-    social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    social: "github",
+    link: "Jitendra2407",
+    href: "https://github.com/Jitendra2407",
   },
   {
-    social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    social: "linkedin",
+    link: "jitendrakt",
+    href: "https://www.linkedin.com/in/jitendrakt/",
   },
   {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
-  },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+    social: "twitter",
+    link: "Jitendra1965958",
+    href: "https://x.com/Jitendra1965958",
   },
 ];
 

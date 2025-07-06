@@ -8,35 +8,27 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Driwwwle',
+    title: 'SensAi',
     description:
-      'Discover creative websites and developers. A portal for you to share your projects.',
-    logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
+      'Built an AI-driven career platform with resume generation and interview prep using Next.js, LLMs, Prisma, and Inngest, with a scalable backend and responsive UI.',
+    logo: '/logos/sensAi.svg',
+    link: 'https://github.com/Jitendra2407/CareerGenie',
     slug: 'driwwwle',
+  },
+  {
+    title: 'RideEase',
+    description:
+      'An Uber clone enabling real-time ride booking, route tracking, and driver-rider interaction with a smooth UI.',
+    logo: '/logos/rideease.svg',
+    link: 'https://github.com/Jitendra2407/RideEase',
+    slug: 'rideease',
   },
   {
     title: 'VSCode Portfolio',
     description:
       'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
     logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    link: 'https://github.com/Jitendra2407/portFolio2',
     slug: 'vscode-portfolio',
-  },
-  {
-    title: 'Subtrackt',
-    description:
-      'A simple and elegant way to track your subscriptions and save money.',
-    logo: '/logos/subtrackt.svg',
-    link: 'https://github.com/itsnitinr/subtrackt',
-    slug: 'subtrackt',
-  },
-  {
-    title: 'Coolify Deployments',
-    description:
-      'VSCode extension to track and deploy your Coolify applications.',
-    logo: '/logos/coolify.svg',
-    link: 'https://github.com/itsnitinr/coolify-vscode-extension',
-    slug: 'coolify-vscode-extension',
   },
 ];
