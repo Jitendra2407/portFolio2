@@ -69,14 +69,17 @@
   }
 
   .container {
-    padding: 1.5rem 0.1rem;
+    max-width: 98%;
+    padding: 1.5rem 0rem;
   }
 
   .pageTitle {
+    max-width: 98%;
     font-size: 1.75rem;
   }
 
   .pageSubtitle {
+    max-width: 98%;
     font-size: 1rem;
     margin-bottom: 2rem;
   }
